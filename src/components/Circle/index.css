@@ -1,0 +1,9 @@
+.circle {
+    width: 60%;
+    height: 60%;
+    /* background-color: #e64c65; */
+    outline: 6px solid #e64c65;
+    border: 2px solid #f9f9f9;
+    border-radius: 50%;
+    
+}

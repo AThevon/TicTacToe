@@ -1,0 +1,23 @@
+.cell {
+    background-color: #5e5e5e;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s;
+    border: 2px solid transparent;
+}
+
+.cell:hover {
+    cursor: pointer;
+    border: 2px solid #b2b2b2;
+    opacity: .9;
+    scale: 1.04;
+}
+
+
+
+.cell.disabled {
+    background-color: #484848;
+    pointer-events: none;
+}

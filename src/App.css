@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
+:root {
+    --main-font: 'Kdam Thmor Pro', sans-serif;
+    --second-font:'Rubik Spray Paint', cursive;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    background-color: #232323;
+    color: #f9f9f9;
+    font-family: var(--main-font);
+    color: #f9f9f9;
+    height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+section.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    gap: 10rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+a.gitlink {
+    position: absolute;
+    right: 2rem;
+    bottom: 2rem;
 }
 
-.App-link {
-  color: #61dafb;
+a.gitlink img {
+    transition: .4s;
+    object-fit: cover;
+    height: 4rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a.gitlink img:hover {
+    scale: 1.2;
 }
