@@ -9,5 +9,4 @@ const Cross = () => {
     )
 }
 
-
-export default Cross
+export default Cross;

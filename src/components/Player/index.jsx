@@ -15,7 +15,7 @@ const Player = ({ playerId, playerName, playerScore, isDisabled, isActive, playe
                 onBlur={playerNameChange} 
                 className="player-name"
                 spellCheck="false"
-                >     
+                >
                     {playerName}
             </p>
                 <p className={`player-score ${isScoreActive}`}>{playerScore}</p>

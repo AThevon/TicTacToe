@@ -37,7 +37,7 @@ p.phrase {
 
 p.phrase.playing {
     font-size: 20px;
-    transform: translateY(140%);
+    transform: translateY(200%);
     padding: 10px 100px;
     border-radius: 10px;
     background-color: black;

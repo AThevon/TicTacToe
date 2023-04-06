@@ -38,7 +38,6 @@ const Board = () => {
     const logo = xIsNext ? 'purple' : draw ? 'grey' : 'red';
 
 
-
     const handleClick = (index) => {
         if (winner || cells[index].value) {
             return;
@@ -73,13 +72,10 @@ const Board = () => {
             } else {
                 setScorePlayer1((prevScore) => prevScore + 1);
             }
-            console.log('winner');
         } else if (cellsCopy.every((cell) => cell.value)) {
             setGameOver(true);
             setDraw(true);
-            console.log('draw');
         } else {
-            console.log('next')
             setXIsNext((prev) => !prev);
         }
     }
